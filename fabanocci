@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,i,b,cnt=0;
+    printf("Enter the 1st two numbers: ");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    printf("%d %d",a,b);
+    for(i=0;i<10;i++)
+    {
+       cnt=a+b;
+       printf("%d",cnt);
+       a=b;
+       b=cnt;
+    }
+    return 0;
+};
