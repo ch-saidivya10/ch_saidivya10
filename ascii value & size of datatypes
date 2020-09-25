@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    int a;
+    float b;
+    double c;
+    char d;
+
+     printf(" the size of int is %d and the size of float is %ld and the size of double %ld",sizeof(a),sizeof(b),sizeof(c));
+     printf("\nenter the charecter :");\
+     scanf("%c",&d);
+     printf("\nthe ascii value of %c = %d",d,d);
+    return 0;
